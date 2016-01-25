@@ -1,0 +1,27 @@
+{
+  "name": "device",
+  "base": "PersistedModel",
+  "strict": false,
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "uuid": {
+      "type": "string"
+    },
+    "created": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "offers": {
+      "type": "hasMany",
+      "model": "offer",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

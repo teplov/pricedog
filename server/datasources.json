@@ -1,0 +1,12 @@
+{
+  "db": {
+    "host": "ds058048.mongolab.com",
+    "port": 58048,
+    "url": "mongodb://teplov:laser11@ds058048.mongolab.com:58048/pricedog",
+    "database": "pricedog",
+    "password": "laser11",
+    "name": "db",
+    "user": "teplov",
+    "connector": "mongodb"
+  }
+}
